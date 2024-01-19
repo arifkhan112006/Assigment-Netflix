@@ -12,7 +12,7 @@ body{
 
 .side-h{
     /* background-image: url(img/net.png); */
-    height: 88vh;
+    height: 100vh;
     filter: brightness(200%);
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0, .7) ), url("img/net.png");
@@ -59,7 +59,7 @@ body{
    
     height: 85vh;
     background-color: black;
-    margin-top: 180px;
+    margin-top: 10px;
 }
 
 .read{
@@ -97,7 +97,7 @@ body{
 .section-ii{
     height: 85vh;
     background-color: black;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -200,7 +200,7 @@ body{
    
    /* ----------------------------------------------------------------------------------------------------- */
    .section-b{
-    height: 180vh;
+    height: 130vh;
     background-color: black;
     margin-top: 5px;
 }
@@ -279,3 +279,80 @@ body{
     margin-left: 120px;
     color: rgb(107, 105, 105);
 }
+/* ---------------------------------------------------------------------------- */
+.footer-e{
+    height: 60vh;
+    background-color: black;
+    margin-top: 10px;
+    
+
+}
+
+.footer-c{
+    /* border: 2px solid white; */
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.line{
+    color: rgb(179, 168, 132);
+    line-height: 43px;
+    
+}
+
+/* ---------------------------------------------- */
+
+.dropdown{
+    background-color: rgb(15, 15, 15);
+    width: 140px;
+    height: 38px;
+    
+    border-radius: 5%;
+    /* box-shadow: 0 8px 16px 0 rgba(133, 131, 131, 0.2), 0 6px 20px 0 rgba(187, 179, 179, 0.19); */
+
+   
+}
+
+/* ------------------- */
+
+.e-b{
+    margin-left: 30px;
+    font-size: 20px;
+   
+   
+    
+}
+
+.dropdown:active{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5%;
+
+    
+   
+}
+
+
+.footer-i ul{
+    /* border: 2px solid white; */
+    margin-top: 110px;
+    margin-left: 50px;
+
+}
+
+.dropdown-menu{
+    background-color:  rgb(97, 125, 247);
+    height: 30px;
+    margin-left: -100px;
+}
+
+.dropdown-menu:{
+    background-color:  rgb(3, 1, 1);
+}
+
+.dropdown-item{
+    font-size: large;
+    color: white;
+    margin-top:-15px ;
+   
+}
+
